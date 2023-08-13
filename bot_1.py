@@ -16,8 +16,8 @@ def start_help(message: telebot.types.Message):
            f"Я помогу узнать актуальные курсы валют. Доступные валюты /values\n Введите через пробел <ИМЯ ВАЛЮТЫ>\n" \
            f"Потом <ВАЛЮТУ, В КОТОРУЮ ПЕРЕВОДИТЬ> \n и <КОЛЛИЧЕСТВО ВАЛЮТЫ>, которое хотите обменять"
 
-    foto = open(r"H:\FILES\SBOXWON-xEQ.jpg", "rb")
-    bot.send_photo(message.chat.id, photo=foto)
+    # foto = open(r"H:\FILES\SBOXWON-xEQ.jpg", "rb")
+    # bot.send_photo(message.chat.id, photo=foto)
     bot.send_message(message.chat.id,  text)
 
 
